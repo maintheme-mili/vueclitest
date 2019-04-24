@@ -34,6 +34,22 @@
 
 ![2019-04-24_093154](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093154.png)
 
+`商品列表`：
+
+![2019-04-24](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic1/商品列表.png)
+
+`商品详情`：
+
+![2019-04-24](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic1/商品详情.png)
+
+`图文详情`：
+
+![2019-04-24](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic1/图文详情.png)
+
+`商品评价`：
+
+![2019-04-24](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic1/商品评价.png)
+
 ## 快速启动
 
 ``` bash
@@ -114,3 +130,8 @@ npm run dev
 * 图片分享
   * 图片幻灯片
 
+* 商品购买
+  * 商品详情
+  * 加入购物车
+  * 图文详情
+  * 商品评论

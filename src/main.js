@@ -22,7 +22,7 @@ Vue.use(MintUI)
 Vue.use(VueRouter)
 Vue.use(VuePreview)
 // 为了能够在其他页面使用
-// Vue.prototype.axios = axios
+Vue.prototype.axios = axios
 
 axios.defaults.baseURL = 'http://027xin.com:8899/'
 Vue.config.productionTip = false
