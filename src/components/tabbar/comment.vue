@@ -7,7 +7,7 @@
     <mt-button type="primary" size="large" @click="postcomment">发表评论</mt-button>
 
     <div class="cmt-list">
-      <div class="cmt-item" v-for="(item, i) in comment" :key="item.add_time">
+      <div class="cmt-item" v-for="(item, i) in comment" :key="i">
         <div class="cmt-title">
           第{{ i+1 }}楼&nbsp;&nbsp;用户：{{ item.user_name }}&nbsp;&nbsp;发表时间：{{ item.add_time | dateFormat }}
         </div>
@@ -27,7 +27,7 @@
 export default {
     data(){
       return {
-        msg:{},
+        msg:'',
         pageIndex:1,
         comment:[] //评论数据
       }
@@ -43,8 +43,15 @@ export default {
       },
       // 发表评论
       postcomment(){
-        axios.post(`api/postcomment/${this.id}`,{content:this.msg.trim()}).then(result => {
+        axios.post(`api/postcomment/${this.id}`,`content= ${this.msg.trim()}`).then(result => {
           console.log(result.data)
+          var cmt = {
+          user_name: "匿名用户",
+          add_time: Date.now(),
+          content: this.msg.trim()
+        };
+        this.comment.unshift(cmt);
+        this.msg = "";
           
         })
       }

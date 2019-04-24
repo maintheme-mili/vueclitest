@@ -2,7 +2,39 @@
 
 > 一个 Vue.js 项目
 
-## 运行项目
+基于vue脚手架搭建的一个购物webapp项目
+
+技术栈：Vue框架+mui框架+Mint UI框架
+
+`主页`：
+
+![2019-04-24_093047](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093047.png)
+
+`新闻页`：
+
+![2019-04-24_093101](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093101.png)
+
+`新闻详情页`：
+
+![2019-04-24_093111](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093111.png)
+
+`评论功能页`：
+
+![2019-04-24_093124](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093124.png)
+
+`图片展示页`：
+
+![2019-04-24_093137](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093137.png)
+
+`图片详情页`：
+
+![2019-04-24_093146](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093146.png)
+
+`图片轮播页`：
+
+![2019-04-24_093154](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093154.png)
+
+## 快速启动
 
 ``` bash
 # install dependencies
@@ -10,12 +42,6 @@ npm install
 
 # serve with hot reload at http://localhost:8080/#/home
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
 目录结构介绍
@@ -79,4 +105,12 @@ npm run build --report
   |-static
 
 ```
+
+### 功能
+
+* 首页
+* 新闻资讯
+  * 发表评论
+* 图片分享
+  * 图片幻灯片
 

@@ -11,6 +11,8 @@ import './assets/mui/css/mui.css'
 import './assets/mui/css/icons-extra.css'
 import router from './router/router'
 import moment from 'moment'
+
+import VuePreview from 'vue-preview'
 Vue.filter('dateFormat', function (dateStr, pattern = 'YYYY-MM-DD HH:mm:ss') {
   // eslint-disable-next-line no-undef
   return moment(dateStr).format(pattern)
@@ -18,6 +20,7 @@ Vue.filter('dateFormat', function (dateStr, pattern = 'YYYY-MM-DD HH:mm:ss') {
 // import App from './App.vue'
 Vue.use(MintUI)
 Vue.use(VueRouter)
+Vue.use(VuePreview)
 // 为了能够在其他页面使用
 // Vue.prototype.axios = axios
 
