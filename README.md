@@ -8,31 +8,31 @@
 
 `主页`：
 
-![2019-04-24_093047](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093047.png)
+![image](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093047.png)
 
 `新闻页`：
 
-![2019-04-24_093101](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093101.png)
+![2019-04-24_093101](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093101.png)
 
 `新闻详情页`：
 
-![2019-04-24_093111](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093111.png)
+![2019-04-24_093111](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093111.png)
 
 `评论功能页`：
 
-![2019-04-24_093124](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093124.png)
+![2019-04-24_093124](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093124.png)
 
 `图片展示页`：
 
-![2019-04-24_093137](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093137.png)
+![2019-04-24_093137](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093137.png)
 
 `图片详情页`：
 
-![2019-04-24_093146](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093146.png)
+![2019-04-24_093146](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093146.png)
 
 `图片轮播页`：
 
-![2019-04-24_093154](C:\Users\keep\Desktop\webpackcli\doc\pic\2019-04-24_093154.png)
+![2019-04-24_093154](https://raw.githubusercontent.com/maintheme-mili/vueclitest/master/doc/pic/2019-04-24_093154.png)
 
 ## 快速启动
 
